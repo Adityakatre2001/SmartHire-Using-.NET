@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(20, 30, 40);
+  color:white;
+
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+  position: relative; /* Needed for the underline effect */
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  position: relative; /* Allows for the use of the :after pseudo-element */
+  padding-bottom: 5px; /* Provides space for the underline */
+}
+
+.navbar-links a:hover {
+  color: #ddd; /* Optional: Change text color on hover */
+}
+
+.navbar-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease; /* Smooth transition for the underline */
+}
+
+.navbar-links a:hover::after {
+  width: 100%; /* Expands the underline to the full width on hover */
+}
+
+.navbar-buttons .btn-primary,
+.navbar-buttons .btn-secondary {
+  margin: 0 5px;
+}
+.navbar-logo-link {
+  text-decoration: none;
+  color: inherit; /* Keeps the text color the same as it was before */
+}
+
+.navbar-logo-link:hover {
+  cursor: pointer;
+}
+
