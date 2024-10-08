@@ -1,4 +1,4 @@
-.footer-section {
+/* .footer-section {
   background-color: #f0f2f5; 
   padding: 20px; 
   text-align: center; 
@@ -44,4 +44,40 @@
 
 .home-container {
   margin-bottom: 100px; 
+} */
+
+
+/***********************************************************************************/
+
+.footer-section {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center-align items */
+  justify-content: center; /* Center the content vertically */
+  padding: 20px;
+  background-color: #f0f2f5; /* Light background color */
+  text-align: center; /* Center text */
+  border-top: 1px solid #ccc; /* Optional: Add a subtle top border */
+}
+
+.footer-content {
+  margin-bottom: 10px; /* Space below the contact info */
+}
+
+.footer-content h3 {
+  margin-bottom: 5px; /* Reduce space below the header */
+  font-size: 1.5rem; /* Adjust font size */
+  color: #333; /* Dark color for header */
+}
+
+.footer-content p {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Standard font size for the text */
+  color: #666; /* Grey color for contact info */
+}
+
+footer p {
+  font-size: 0.9rem; /* Smaller font size for copyright text */
+  color: #999; /* Lighter grey color for copyright */
+  margin-top: 10px; /* Space above copyright */
 }

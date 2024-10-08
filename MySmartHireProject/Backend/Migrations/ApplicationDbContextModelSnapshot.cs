@@ -52,7 +52,7 @@ namespace SmartHire.Migrations
 
                     b.HasKey("CompanyId");
 
-                    b.ToTable("company");
+                    b.ToTable("company", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.JobApplication", b =>
@@ -83,7 +83,7 @@ namespace SmartHire.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("application");
+                    b.ToTable("application", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.JobPosting", b =>
@@ -127,7 +127,7 @@ namespace SmartHire.Migrations
 
                     b.HasIndex("EmployerId");
 
-                    b.ToTable("job_posting");
+                    b.ToTable("job_posting", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.Message", b =>
@@ -160,7 +160,7 @@ namespace SmartHire.Migrations
 
                     b.HasIndex("SenderId");
 
-                    b.ToTable("message");
+                    b.ToTable("message", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.Profile", b =>
@@ -202,7 +202,7 @@ namespace SmartHire.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Profiles");
+                    b.ToTable("Profiles", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.User", b =>
@@ -243,7 +243,7 @@ namespace SmartHire.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("SmartHire.Models.JobApplication", b =>

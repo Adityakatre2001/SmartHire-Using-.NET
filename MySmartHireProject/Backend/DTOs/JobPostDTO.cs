@@ -30,6 +30,6 @@ namespace SmartHire.DTOs
         [StringLength(255)]
         public string JobLocation { get; set; }
 
-        public DateTime? CloseDate { get; set; } /
+        public DateTime? CloseDate { get; set; } 
     }
 }

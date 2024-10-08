@@ -1,13 +1,13 @@
-.home-container {
+/* .home-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 180vh;
+    height: 100vh;
     text-align: center;
     background-color: #f0f2f5; 
     padding: 20px;
-    margin-top: 120px; /* Adjust this value based on your navbar's height */
+    margin-top: 120px; 
   }
   
   .home-content h1 {
@@ -32,4 +32,79 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+   */
+
+/* General reset for margins and paddings */
+
+
+/* General reset for margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%; /* Ensure the body takes full height */
+}
+
+/* Ensure body and container fill available height */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allow container to grow and fill the remaining space */
+  text-align: center;
+  background-color: #f0f2f5; 
+  padding: 20px;
+  margin-top: 0; /* Remove margin between navbar and container */
+}
+
+/* Navbar adjustment */
+.navbar {
+  margin-bottom: 0; /* Remove extra space below navbar */
+}
+
+/* Content styling */
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* Image styling */
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0; /* Prevent extra space at the bottom */
+}
+
+/* Footer adjustment */
+footer {
+  padding: 10px 0;
+  background-color: #f0f2f5;
+}
+
+

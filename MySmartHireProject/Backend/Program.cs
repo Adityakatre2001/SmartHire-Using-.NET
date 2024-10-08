@@ -1,15 +1,24 @@
 using SmartHire.Services;
 using SmartHire.Repositories; 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using SmartHire.Models; 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Register services
 builder.Services.AddScoped<IAdminService, AdminService>();
-builder.Services.AddScoped<IUserService, UserService>();  
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IEmployerService, EmployerService>();
+builder.Services.AddScoped<IJobPostingRepository, JobPostingRepository>();
+builder.Services.AddScoped<IJobApplicationRepository, JobApplicationRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();  
-builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();  
+builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+
+
+builder.Services.AddScoped<IApplicationService, ApplicationService>();
 
 
 // Register ApplicationDbContext
@@ -26,6 +35,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddMemoryCache(); // for caching
+
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
@@ -39,6 +50,28 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader();
     });
 });
+
+// Configure JWT Authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+        ClockSkew = TimeSpan.Zero // Optional: reduces the allowed time difference between token generation and validation
+    };
+});
+
 
 var app = builder.Build();
 
@@ -59,6 +92,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 
 app.UseRouting();
+
+app.UseAuthorization();
 
 app.UseAuthorization();
 

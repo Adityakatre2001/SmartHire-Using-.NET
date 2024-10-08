@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SmartHire.DTOs;
 using SmartHire.Models;
@@ -34,6 +36,8 @@ namespace SmartHire.Services
             var savedJobPosting = await _jobPostingRepository.CreateAsync(jobPosting);
             return _mapper.Map<JobPostDTO>(savedJobPosting);
         }
+
+
 
         public async Task<JobPostDTO> UpdateJobPostingAsync(long jobId, JobPostDTO jobPostDto)
         {
@@ -74,36 +78,6 @@ namespace SmartHire.Services
             var applications = await _jobApplicationRepository.GetAllAsync();
             var filteredApplications = applications.Where(ja => ja.JobPostingId == jobId);
             return filteredApplications.Select(ja => _mapper.Map<ApplicantDTO>(ja)).ToList();
-        }
-
-        public JobPostDTO CreateJobPosting(JobPostDTO jobPostDto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public JobPostDTO UpdateJobPosting(long jobId, JobPostDTO jobPostDto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteJobPosting(long jobId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public JobPostDTO GetJobPostingById(long jobId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<JobPostDTO> GetAllJobPostings()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<ApplicantDTO> GetApplicationsForJob(long jobId)
-        {
-            throw new NotImplementedException();
         }
     }
 }

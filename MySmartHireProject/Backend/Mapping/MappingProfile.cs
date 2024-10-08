@@ -15,6 +15,10 @@ public class MappingProfile : AutoMapper.Profile
 
         // Mapping for Company and CompanyDTO
         CreateMap<CompanyDTO, Company>().ReverseMap();  // Map Company entity to DTO and vice versa
+
+        CreateMap<JobPostDTO, JobPosting>().ReverseMap();
+
+        CreateMap<ApplicantDTO, JobApplication>();
     }
 
     private UserRole MapRole(string roleString)

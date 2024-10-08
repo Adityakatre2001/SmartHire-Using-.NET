@@ -1,9 +1,12 @@
 
 
 import axios from 'axios';
+import AuthService from './AuthService';
 
 
-const baseurl = 'http://localhost:8080/users';
+
+// const baseurl = 'http://localhost:8080/users';
+const baseurl = 'http://localhost:5249/users';
 
 class UserService {
 
@@ -35,14 +38,14 @@ class UserService {
         return axios.get(baseurl + 'applications', { headers: this.authHeader() });
     }
 
-    // authHeader() {
-    //     const user = AuthService.getCurrentUser();
-    //     if (user && user.token) {
-    //         return { Authorization: 'Bearer ' + user.token };
-    //     } else {
-    //         return {};
-    //     }
-    // }
+    authHeader() {
+        const user = AuthService.getCurrentUser();
+        if (user && user.token) {
+            return { Authorization: 'Bearer ' + user.token };
+        } else {
+            return {};
+        }
+    }
 }
 
 export default new UserService();

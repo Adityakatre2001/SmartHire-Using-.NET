@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+/*using Microsoft.AspNetCore.Mvc;
 
 namespace SmartHire.Controllers
 {
@@ -31,3 +31,4 @@ namespace SmartHire.Controllers
         }
     }
 }
+*/

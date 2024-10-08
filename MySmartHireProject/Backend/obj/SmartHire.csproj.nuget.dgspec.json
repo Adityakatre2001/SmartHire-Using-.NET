@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MySmartHireProject\\SmartHire\\SmartHire.csproj": {}
+    "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\SmartHire.csproj": {}
   },
   "projects": {
-    "F:\\MySmartHireProject\\SmartHire\\SmartHire.csproj": {
+    "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\SmartHire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MySmartHireProject\\SmartHire\\SmartHire.csproj",
+        "projectUniqueName": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\SmartHire.csproj",
         "projectName": "SmartHire",
-        "projectPath": "F:\\MySmartHireProject\\SmartHire\\SmartHire.csproj",
+        "projectPath": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\SmartHire.csproj",
         "packagesPath": "C:\\Users\\arpit\\.nuget\\packages\\",
-        "outputPath": "F:\\MySmartHireProject\\SmartHire\\obj\\",
+        "outputPath": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arpit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

@@ -2,8 +2,10 @@
 
 import axios from 'axios';
 //import AuthService from './AuthService';
+import AuthService from './AuthService';
 
-const baseurl = 'http://localhost:8080/employers';
+// const baseurl = 'http://localhost:8080/employers';
+ const baseurl = 'http://localhost:5249/employers';
 
 class EmployerService {
     createJobPosting(jobPosting) {
@@ -30,14 +32,14 @@ class EmployerService {
         return axios.get(baseurl + `jobs/${jobId}/applications`, { headers: this.authHeader() });
     }
 
-    // authHeader() {
-    //     const user = AuthService.getCurrentUser();
-    //     if (user && user.token) {
-    //         return { Authorization: 'Bearer ' + user.token };
-    //     } else {
-    //         return {};
-    //     }
-    // }
+    authHeader() {
+        const user = AuthService.getCurrentUser();
+        if (user && user.token) {
+            return { Authorization: 'Bearer ' + user.token };
+        } else {
+            return {};
+        }
+    }
 }
 
 export default new EmployerService();
