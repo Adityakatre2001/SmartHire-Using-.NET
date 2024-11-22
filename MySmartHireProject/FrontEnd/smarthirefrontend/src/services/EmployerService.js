@@ -4,8 +4,8 @@ import axios from 'axios';
 //import AuthService from './AuthService';
 import AuthService from './AuthService';
 
-// const baseurl = 'http://localhost:8080/employers';
- const baseurl = 'http://localhost:5249/employers';
+const baseurl = 'http://localhost:8080/employers';
+//  const baseurl = 'http://localhost:5249/employers';
 
 class EmployerService {
     createJobPosting(jobPosting) {

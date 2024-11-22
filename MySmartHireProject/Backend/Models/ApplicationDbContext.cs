@@ -43,6 +43,28 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<User>()
             .HasKey(u => u.UserId);
 
+        // Configure UserName column to have a max length of 100 and be required
+        modelBuilder.Entity<User>()
+            .Property(u => u.Username)
+            .HasMaxLength(100)
+            .IsRequired();
+
+        // Configure the Role enum to be stored as a string in the database
+        modelBuilder.Entity<User>()
+            .Property(u => u.Role)
+            .HasConversion<string>()  // Store enum as string instead of int
+            .IsRequired();
+
+        // Example of configuring relationships (if you have a related entity, e.g., Profile)
+        // Assuming User has a one-to-one relationship with Profile
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.Profile)  // Assuming there's a navigation property 'Profile' in User class
+            .WithOne(p => p.User)
+            .HasForeignKey<Profile>(p => p.UserId);
+
+
+
+
         // Profile configuration
         modelBuilder.Entity<Profile>()
             .HasOne(p => p.User)

@@ -1,194 +1,4 @@
-﻿/*
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using SmartHire.DTOs;
-using SmartHire.Services;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-
-namespace SmartHire.Controllers
-{
-    [Route("employers")]
-    [ApiController]
-    [Produces("application/json")]
-    [Consumes("application/json")]
-    public class EmployerController : ControllerBase
-    {
-        private readonly IEmployerService _employerService;
-        private readonly IUserService _userService;
-        private readonly IConfiguration _configuration;
-
-        public EmployerController(IEmployerService employerService, IUserService userService, IConfiguration configuration)
-        {
-            _employerService = employerService;
-            _userService = userService;
-            _configuration = configuration;
-        }
-
-        // Employer SignIn to generate JWT Token
-        [HttpPost("signin")]
-        public async Task<IActionResult> EmployerSignIn([FromBody] AuthDTO dto)
-        {
-            try
-            {
-                var user = await _userService.AuthenticateUserAsync(dto);
-                if (user == null)
-                {
-                    return Unauthorized(new ApiResponse { Message = "Invalid credentials" });
-                }
-
-                // Create JWT token
-                var token = GenerateJwtToken(user);
-                return Ok(new ApiResponse { Message = "Sign-in successful", Data = new { Token = token } });
-            }
-            catch (KeyNotFoundException e)
-            {
-                return NotFound(new ApiResponse { Message = e.Message });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-        private string GenerateJwtToken(UserDTO user)
-        {
-            var claims = new[]
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                new Claim("UserId", user.UserId.ToString()),
-                new Claim("Role", user.Role)
-            };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: _configuration["Jwt:Issuer"],
-                audience: _configuration["Jwt:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddHours(1),
-                signingCredentials: creds);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-        // Job Posting Management
-    *//*    [Authorize]*//*
-        [HttpPost("jobs")]
-        public async Task<IActionResult> CreateJobPosting([FromBody] JobPostDTO jobPostingDTO)
-        {
-            try
-            {
-                var createdJobPosting = await _employerService.CreateJobPostingAsync(jobPostingDTO);
-                return Ok(new ApiResponse { Message = "Job posting created successfully", Data = createdJobPosting });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-    *//*    [Authorize]*//*
-        [HttpPut("jobs/{jobId}")]
-        public async Task<IActionResult> UpdateJobPosting([FromRoute] long jobId, [FromBody] JobPostDTO jobPostingDTO)
-        {
-            try
-            {
-                var updatedJobPosting = await _employerService.UpdateJobPostingAsync(jobId, jobPostingDTO);
-                return Ok(new ApiResponse { Message = "Job posting updated successfully", Data = updatedJobPosting });
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound(new ApiResponse { Message = "Job posting not found" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-       *//* [Authorize]*//*
-        [HttpDelete("jobs/{jobId}")]
-        public async Task<IActionResult> DeleteJobPosting([FromRoute] long jobId)
-        {
-            try
-            {
-                await _employerService.DeleteJobPostingAsync(jobId);
-                return NoContent();
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound(new ApiResponse { Message = "Job posting not found" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-       *//* [Authorize]*//*
-        [HttpGet("jobs/{jobId}")]
-        public async Task<IActionResult> GetJobPostingById([FromRoute] long jobId)
-        {
-            try
-            {
-                var jobPostingDTO = await _employerService.GetJobPostingByIdAsync(jobId);
-                return Ok(new ApiResponse { Data = jobPostingDTO });
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound(new ApiResponse { Message = "Job posting not found" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-      *//*  [Authorize]*//*
-        [HttpGet("jobs")]
-        public async Task<IActionResult> GetAllJobPostings()
-        {
-            try
-            {
-                var jobPostings = await _employerService.GetAllJobPostingsAsync();
-                return Ok(new ApiResponse { Data = jobPostings });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-
-        // Application Management
-      *//*  [Authorize]*//*
-        [HttpGet("jobs/{jobId}/applications")]
-        public async Task<IActionResult> GetApplicationsForJob([FromRoute] long jobId)
-        {
-            try
-            {
-                var applications = await _employerService.GetApplicationsForJobAsync(jobId);
-                return Ok(new ApiResponse { Data = applications });
-            }
-            catch (KeyNotFoundException)
-            {
-                return NotFound(new ApiResponse { Message = "Job posting not found" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
-            }
-        }
-    }
-}
-*/
-
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using SmartHire.DTOs;
@@ -197,6 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.AspNetCore.Cors;
 
 namespace SmartHire.Controllers
 {
@@ -204,6 +15,7 @@ namespace SmartHire.Controllers
     [ApiController]
     [Produces("application/json")]
     [Consumes("application/json")]
+    [EnableCors("AllowAll")]
     public class EmployerController : ControllerBase
     {
         private readonly IEmployerService _employerService;
@@ -236,6 +48,12 @@ namespace SmartHire.Controllers
                     return Unauthorized(new ApiResponse { Message = "Invalid credentials" });
                 }
 
+                if (user.Role != "Employer")
+                {
+                    return StatusCode(403, new ApiResponse { Message = "Access denied. Only Employer are allowed to sign in." });
+                }
+
+
                 // Create JWT token
                 var token = GenerateJwtToken(user);
                 return Ok(new ApiResponse { Message = "Sign-in successful", Data = new { Token = token } });
@@ -275,7 +93,7 @@ namespace SmartHire.Controllers
         }
 
         // Job Posting Management
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpPost("jobs")]
         public async Task<IActionResult> CreateJobPosting([FromBody] JobPostDTO jobPostingDTO)
         {
@@ -294,7 +112,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpPut("jobs/{jobId}")]
         public async Task<IActionResult> UpdateJobPosting([FromRoute] long jobId, [FromBody] JobPostDTO jobPostingDTO)
         {
@@ -318,7 +136,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpDelete("jobs/{jobId}")]
         public async Task<IActionResult> DeleteJobPosting([FromRoute] long jobId)
         {
@@ -342,7 +160,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpGet("jobs/{jobId}")]
         public async Task<IActionResult> GetJobPostingById([FromRoute] long jobId)
         {
@@ -368,7 +186,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpGet("jobs")]
         public async Task<IActionResult> GetAllJobPostings()
         {
@@ -416,7 +234,7 @@ namespace SmartHire.Controllers
                   return StatusCode(500, new ApiResponse { Message = $"An error occurred: {ex.Message}" });
               }
           }*/
-        [Authorize]
+        [Authorize(Roles = "Employer")]
         [HttpGet("jobs/{jobId}/applications")]
         public async Task<IActionResult> GetApplicationsForJob([FromRoute] long jobId)
         {

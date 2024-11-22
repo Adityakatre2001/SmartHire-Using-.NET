@@ -1,9 +1,10 @@
 
 import axios from 'axios';
 
-const baseurl = 'http://localhost:5249/auth/';
-// const API_URL = 'https://localhost:5249/auth/'; 
-const API_URL = 'http://localhost:5249/admin/'; 
+//const baseurl = 'http://localhost:5249/auth/';
+const baseurl = 'http://localhost:8080/auth/';
+const API_URL = 'https://localhost:8080/auth/'; 
+// const API_URL = 'http://localhost:5249/admin/'; 
 
 class AuthService {
     login(email, password) {

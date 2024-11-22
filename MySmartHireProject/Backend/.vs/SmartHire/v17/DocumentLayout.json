@@ -3,72 +3,16 @@
   "WorkspaceRootPath": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\jobpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\jobpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\jobapplicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\jobapplicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\employerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\applicantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\applicantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\jobapplicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\jobapplicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\jobposting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\jobposting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,48 +23,40 @@
       "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\jobposting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\jobposting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:repository\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:controllers\\employercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|f:\\smarthire-using-.net\\mysmarthireproject\\backend\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F7E5260-1147-43FD-812D-9C8F409B8A13}|SmartHire.csproj|solutionrelative:services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,237 +74,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JobPostDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\JobPostDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\JobPostDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\JobPostDTO.cs",
-              "RelativeToolTip": "DTOs\\JobPostDTO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:21:31.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobApplicationDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\JobApplicationDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\JobApplicationDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\JobApplicationDTO.cs",
-              "RelativeToolTip": "DTOs\\JobApplicationDTO.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:21:28.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployerDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\EmployerDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\EmployerDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\EmployerDTO.cs",
-              "RelativeToolTip": "DTOs\\EmployerDTO.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA7wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:21:25.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompanyDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\CompanyDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\CompanyDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\CompanyDTO.cs",
-              "RelativeToolTip": "DTOs\\CompanyDTO.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:21:22.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\AuthDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\AuthDTO.cs",
-              "RelativeToolTip": "DTOs\\AuthDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:21:18.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicantDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\ApplicantDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\ApplicantDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\ApplicantDTO.cs",
-              "RelativeToolTip": "DTOs\\ApplicantDTO.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:20:44.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\AdminDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AdminDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\AdminDTO.cs",
-              "RelativeToolTip": "DTOs\\AdminDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:20:38.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\ApiResponse.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\ApiResponse.cs",
-              "RelativeToolTip": "DTOs\\ApiResponse.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:20:08.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JobApplication.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplication.cs",
-              "RelativeDocumentMoniker": "Models\\JobApplication.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplication.cs",
-              "RelativeToolTip": "Models\\JobApplication.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EmployerController.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\EmployerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployerController.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\EmployerController.cs",
+              "RelativeToolTip": "Controllers\\EmployerController.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAqwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:18:56.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JobApplicationStatus.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplicationStatus.cs",
-              "RelativeDocumentMoniker": "Models\\JobApplicationStatus.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplicationStatus.cs",
-              "RelativeToolTip": "Models\\JobApplicationStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:18:30.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "JobPosting.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobPosting.cs",
-              "RelativeDocumentMoniker": "Models\\JobPosting.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobPosting.cs",
-              "RelativeToolTip": "Models\\JobPosting.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:15:25.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Message.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "Models\\Message.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Message.cs",
-              "RelativeToolTip": "Models\\Message.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA3wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:14:06.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-12T11:45:32.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:45:17.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:44:32.233Z",
+              "WhenOpened": "2024-11-21T17:39:42.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Profile.cs",
-              "RelativeDocumentMoniker": "Models\\Profile.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Profile.cs",
-              "RelativeToolTip": "Models\\Profile.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T11:44:19.45Z",
+              "WhenOpened": "2024-11-21T17:38:35.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:17:40.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAIwA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:08:38.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "Models\\UserRole.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\UserRole.cs",
-              "RelativeToolTip": "Models\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:47:40.41Z",
+              "WhenOpened": "2024-11-09T09:07:47.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T08:37:01.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:33:49.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T15:09:12.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobApplication.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplication.cs",
+              "RelativeDocumentMoniker": "Models\\JobApplication.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobApplication.cs",
+              "RelativeToolTip": "Models\\JobApplication.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA/wCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:37:52.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobPosting.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobPosting.cs",
+              "RelativeDocumentMoniker": "Models\\JobPosting.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\JobPosting.cs",
+              "RelativeToolTip": "Models\\JobPosting.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:13:06.74Z"
             },
             {
               "$type": "Document",
@@ -378,153 +192,57 @@
               "RelativeDocumentMoniker": "Models\\Company.cs",
               "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Company.cs",
               "RelativeToolTip": "Models\\Company.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:20:08.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T13:25:20.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:39:14.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:18:18.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
               "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:19:47.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T12:17:38.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:24:08.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "Services\\AdminService.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\AdminService.cs",
-              "RelativeToolTip": "Services\\AdminService.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAcwHgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:22:57.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProfileRepository.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Repository\\ProfileRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProfileRepository.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Repository\\ProfileRepository.cs",
-              "RelativeToolTip": "Repository\\ProfileRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T11:38:36.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EmployerController.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\EmployerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployerController.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\EmployerController.cs",
-              "RelativeToolTip": "Controllers\\EmployerController.cs",
-              "ViewState": "AQIAAKMBAAAAAAAAAIBQwKsBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T18:18:35.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAEEBAAAAAAAAAAAAAEEBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:59:42.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ApplicationService.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\ApplicationService.cs",
-              "RelativeDocumentMoniker": "Services\\ApplicationService.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\ApplicationService.cs",
-              "RelativeToolTip": "Services\\ApplicationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T19:52:54.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IApplicationService.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\IApplicationService.cs",
-              "RelativeDocumentMoniker": "Services\\IApplicationService.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Services\\IApplicationService.cs",
-              "RelativeToolTip": "Services\\IApplicationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T19:52:51.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T19:50:34.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAO0BAAAAAAAAAAAuwN4BAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T19:41:46.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\SmartHire-Using-.NET\\MySmartHireProject\\Backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAACUAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T19:39:37.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T11:28:06.643Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ namespace SmartHire.Models
         [Required]
         [ForeignKey("User")]
         public long UserId { get; set; }
-
+         
         public User User { get; set; }
 
         [Required]

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿  using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
@@ -13,12 +13,15 @@ namespace SmartHire.Controllers
 {
     [Route("admin")]
     [ApiController]
+  /*  [EnableCors("AllowAll")]*/
+    [EnableCors("AllowSpecificOrigin")]
     public class AdminController : ControllerBase
     {
         private readonly IAdminService _adminService;
         private readonly IUserService _userService;
         private readonly IConfiguration _configuration;
         private readonly IMemoryCache _memoryCache;
+        private readonly IPasswordHasher _passwordHasher;
 
         public AdminController(IAdminService adminService, IUserService userService, IConfiguration configuration, IMemoryCache memoryCache)
         {
@@ -39,6 +42,28 @@ namespace SmartHire.Controllers
                 {
                     return Unauthorized(new ApiResponse { Message = "Invalid credentials" });
                 }
+                /*
+                                if (user.Role != "Admin")
+                                {
+                                    return Unauthorized(new ApiResponse { Message = "Access denied. Only admins are allowed to sign in." });
+                                }*/
+
+/*
+                bool isPasswordValid = _passwordHasher.VerifyPassword(dto.Password, user.Password);
+                if (!isPasswordValid)
+                {
+                    return Unauthorized(new ApiResponse { Message = "Invalid credentials" });
+                }*/
+
+
+                if (user.Role != "Admin")
+                {
+                    return StatusCode(403, new ApiResponse { Message = "Access denied. Only admins are allowed to sign in." });
+                }
+
+
+
+
 
                 // Create JWT token
                 var token = GenerateJwtToken(user);
@@ -86,7 +111,8 @@ namespace SmartHire.Controllers
         private string GetCompanyCacheKey(long companyId) => $"Company_{companyId}";
         private string GetAllCompaniesCacheKey() => "AllCompanies";
 
-      /*  [Authorize]*/
+      
+        /*[Authorize(Roles = "Admin")]*/
         [HttpPost("users")]
         public async Task<IActionResult> CreateUser([FromBody] UserDTO userDTO)
         {
@@ -105,7 +131,8 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        
+        [Authorize(Roles = "Admin")]
         [HttpPut("users/{userId}")]
         public async Task<IActionResult> UpdateUser(long userId, [FromBody] UserDTO userDTO)
         {
@@ -129,7 +156,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("users/{userId}")]
         public async Task<IActionResult> DeleteUser(long userId)
         {
@@ -153,7 +180,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpGet("users/{userId}")]
         public async Task<IActionResult> GetUserById(long userId)
         {
@@ -179,7 +206,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+       /* [Authorize(Roles = "Admin")]*/
         [HttpGet("users")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -203,7 +230,7 @@ namespace SmartHire.Controllers
 
         // Company endpoints with caching logic...
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPost("companies")]
         public async Task<IActionResult> CreateCompany([FromBody] CompanyDTO companyDTO)
         {
@@ -222,7 +249,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpPut("companies/{companyId}")]
         public async Task<IActionResult> UpdateCompany(long companyId, [FromBody] CompanyDTO companyDTO)
         {
@@ -246,7 +273,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("companies/{companyId}")]
         public async Task<IActionResult> DeleteCompany(long companyId)
         {
@@ -270,7 +297,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpGet("companies/{companyId}")]
         public async Task<IActionResult> GetCompanyById(long companyId)
         {
@@ -296,7 +323,7 @@ namespace SmartHire.Controllers
             }
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [HttpGet("companies")]
         public async Task<IActionResult> GetAllCompanies()
         {

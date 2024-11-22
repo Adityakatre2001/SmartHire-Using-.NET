@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const baseurl = 'http://localhost:8080/admin';
+// const baseurl = 'http://localhost:5249/admin';
 
 class AdminService {
     listAllUsers() {

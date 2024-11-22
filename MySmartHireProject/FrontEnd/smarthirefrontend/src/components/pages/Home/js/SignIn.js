@@ -36,11 +36,11 @@ export default function SignInForm() {
                 if (user && user.userId) {
                     localStorage.setItem('userId', user.userId);
                     console.log('User role:', user.role);
-                    if (user.role === 'ROLE_APPLICANT') {
+                    if (user.role === 'Applicant') {
                         navigate('/jobpostings');
-                    } else if (user.role === 'ROLE_ADMIN') {
+                    } else if (user.role === 'Admin') { //else if (user.role === 'ROLE_ADMIN') 
                         navigate('/admin/dashboard');
-                    } else if (user.role === 'ROLE_EMPLOYER') {
+                    } else if (user.role === 'Employer') { //else if (user.role === 'ROLE_EMPLOYER') 
                         navigate('/employer/dashboard');
                     }
                 } else {
@@ -53,6 +53,7 @@ export default function SignInForm() {
                 setErrorMessage(error.response?.data?.message || 'Failed to sign in. Please check your credentials and try again.');
             });
     };
+
 
     const handleForgotPassword = () => {
         navigate('/reset-password');
@@ -97,4 +98,4 @@ export default function SignInForm() {
             </div>
         </div>
     );
-}
+    }

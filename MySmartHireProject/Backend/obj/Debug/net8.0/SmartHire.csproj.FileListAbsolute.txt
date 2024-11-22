@@ -114,6 +114,7 @@ F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\SmartHire.dl
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\SmartHire.pdb
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\AutoMapper.dll
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\Humanizer.dll
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -221,4 +222,3 @@ F:\SmartHire-Using-.NET\MySmartHireProject\Backend\obj\Debug\net8.0\refint\Smart
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\obj\Debug\net8.0\SmartHire.pdb
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\obj\Debug\net8.0\SmartHire.genruntimeconfig.cache
 F:\SmartHire-Using-.NET\MySmartHireProject\Backend\obj\Debug\net8.0\ref\SmartHire.dll
-F:\SmartHire-Using-.NET\MySmartHireProject\Backend\bin\Debug\net8.0\BCrypt.Net-Next.dll

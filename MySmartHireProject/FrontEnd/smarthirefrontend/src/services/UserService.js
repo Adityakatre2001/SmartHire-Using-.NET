@@ -5,8 +5,9 @@ import AuthService from './AuthService';
 
 
 
-// const baseurl = 'http://localhost:8080/users';
-const baseurl = 'http://localhost:5249/users';
+const baseurl = 'http://localhost:8080/users';
+// const baseurl = 'http://localhost:5249/users';
+// const baseurl = 'http://localhost:5249/Admin';
 
 class UserService {
 

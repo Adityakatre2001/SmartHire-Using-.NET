@@ -1,10 +1,10 @@
 using SmartHire.Services;
-using SmartHire.Repositories; 
+using SmartHire.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using SmartHire.Models; 
+using SmartHire.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +16,7 @@ builder.Services.AddScoped<IJobPostingRepository, JobPostingRepository>();
 builder.Services.AddScoped<IJobApplicationRepository, JobApplicationRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();  
 builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
-
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 
 builder.Services.AddScoped<IApplicationService, ApplicationService>();
 
@@ -43,9 +43,9 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Add CORS policy to allow all origins, methods, and headers
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+    options.AddPolicy("AllowSpecificOrigin", builder =>
     {
-        builder.AllowAnyOrigin()
+        builder.WithOrigins("http://localhost:3000").AllowAnyOrigin()
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
@@ -74,6 +74,7 @@ builder.Services.AddAuthentication(options =>
 
 
 var app = builder.Build();
+// app.UseMiddleware<ExceptionMiddleware>(); // for global custom exception for production environment
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
@@ -89,16 +90,21 @@ if (app.Environment.IsDevelopment())
 }
 
 // Enable CORS middleware before routing and endpoints
-app.UseCors("AllowAll");
+
 
 app.UseRouting();
+/*app.UseCors("AllowAll");*/
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
 app.UseAuthorization();
+
 
 // Map controllers to the pipeline
 app.MapControllers();
+
 
 app.Run();
 

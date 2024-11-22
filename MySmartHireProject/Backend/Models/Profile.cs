@@ -12,7 +12,8 @@ namespace SmartHire.Models
         public long UserId { get; set; }
 
         // Navigation property to User
-        [ForeignKey(nameof(UserId))]
+        [ForeignKey(nameof(UserId))] // code will work properly without this because ef follows naming convention
+                                     // but naming convention must be followed properley
         public User User { get; set; }
 
         [Required]
